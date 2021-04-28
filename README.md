@@ -9,7 +9,9 @@ Link to the original dataset source: http://jmcauley.ucsd.edu/data/amazon/
 
 Find the project and dataset here: https://gitlab.com/sayantan.world98/sentiment-analysis-amazon-health-and-personal-care
 
-Code: https://jovian.ai/sayantan-world98/001-amazon-hpc-sentiement-analysis-binary
+Code Part 1: https://jovian.ai/sayantan-world98/001-amazon-hpc-sentiement-analysis-binary
+
+Code Part 2: https://jovian.ai/sayantan-world98/002-amazon-hpc-sentiement-analysis-binary
 
 Lets see what is there in our dataset.
 
@@ -45,7 +47,18 @@ Where,
 - Linear Support Vector Classification
 - Random Forest Classifier
 - Naive Bayes
-- Multinomial Naive Bayes
+- Multinomial Naive Bayes (TF-IDF only)
+
+### Part 1 - TF-IDF 
+
+TF-IDF stands for “Term Frequency — Inverse Document Frequency”. This is a technique to quantify a word in documents, we generally compute a weight to each word which signifies the importance of the word in the document and corpus. This method is a widely used technique in Information Retrieval and Text Mining.
+
+
+### Part 2 - Word2Vec
+
+![](https://gitlab.com/sayantan.world98/sentiment-analysis-amazon-health-and-personal-care/-/raw/master/images/word2vec.png)
+
+Word2vec is a technique for natural language processing. The word2vec algorithm uses a neural network model to learn word associations from a large corpus of text. Once trained, such a model can detect synonymous words or suggest additional words for a partial sentence.
 
 ### Future Work
 
